@@ -26,7 +26,7 @@
 ### TEMPORARY TESTING COPY ###
 
 name "ohai"
-default_version "wrlinux7"
+default_version "8.5.1.cisco.wrl7"
 
 source git: "git://github.com/adamleff/ohai"
 
