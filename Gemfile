@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 gem 'omnibus', github: 'chef/omnibus'
 gem 'omnibus-software', github: 'opscode/omnibus-software'
-gem 'ohai', github: 'adamleff/ohai', branch: 'wrlinux7'
+gem 'ohai', github: 'adamleff/ohai', branch: '8.5.1.cisco.wrl7'
 
 # This development group is installed by default when you run `bundle install`,
 # but if you are using Omnibus in a CI-based infrastructure, you do not need
