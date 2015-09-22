@@ -63,8 +63,8 @@ override :'ruby-windows', version: "2.0.0-p451"
 override :rubygems,       version: "2.4.4"
 
 # Chef Release version pinning
-override :chef, version: "12.4.1.cisco.wrl7"
-override :ohai, version: "8.5.1.cisco.wrl7"
+override :chef, version: "12.4.2.cisco", source: { git: 'https://github.com/adamleff/chef.git' }
+override :ohai, version: "8.6.0.cisco", source: { git: 'https://github.com/adamleff/ohai.git' }
 
 dependency "preparation"
 dependency "chef"
